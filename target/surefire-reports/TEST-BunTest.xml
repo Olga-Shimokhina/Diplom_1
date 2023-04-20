@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="24" failures="0" name="BunTest" time="0.016" errors="0" skipped="0">
+<testsuite tests="24" failures="0" name="BunTest" time="0.019" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="19.0.1+10-21"/>
     <property name="sun.boot.library.path" value="C:\Program Files\OpenJDK\jdk-19.0.1\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="D:\Diplom_Olga_Shimokhina_16\Diplom_1"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\QA\Diplom_Olga_Shimokhina_16\Diplom_1"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -15,11 +15,11 @@
     <property name="user.country" value="RU"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\Diplom_Olga_Shimokhina_16\Diplom_1"/>
+    <property name="user.dir" value="D:\QA\Diplom_Olga_Shimokhina_16\Diplom_1"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="19.0.1+10-21"/>
     <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\ADMIN~1.LEG\AppData\Local\Temp\"/>
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
     <property name="line.separator" value="
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
@@ -61,12 +61,12 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="BunTest" name="getNameReturnValidName[Bun 0 -&gt; Name: black bun, Price: 100 ]" time="0.015"/>
+  <testcase classname="BunTest" name="getNameReturnValidName[Bun 0 -&gt; Name: black bun, Price: 100 ]" time="0.014"/>
   <testcase classname="BunTest" name="getPriceReturnValidPrice[Bun 0 -&gt; Name: black bun, Price: 100 ]" time="0"/>
   <testcase classname="BunTest" name="getNameReturnValidName[Bun 1 -&gt; Name: white bun, Price: 200 ]" time="0"/>
-  <testcase classname="BunTest" name="getPriceReturnValidPrice[Bun 1 -&gt; Name: white bun, Price: 200 ]" time="0"/>
+  <testcase classname="BunTest" name="getPriceReturnValidPrice[Bun 1 -&gt; Name: white bun, Price: 200 ]" time="0.001"/>
   <testcase classname="BunTest" name="getNameReturnValidName[Bun 2 -&gt; Name: red bun, Price: 300 ]" time="0"/>
-  <testcase classname="BunTest" name="getPriceReturnValidPrice[Bun 2 -&gt; Name: red bun, Price: 300 ]" time="0"/>
+  <testcase classname="BunTest" name="getPriceReturnValidPrice[Bun 2 -&gt; Name: red bun, Price: 300 ]" time="0.002"/>
   <testcase classname="BunTest" name="getNameReturnValidName[Bun 3 -&gt; Name: , Price: 300 ]" time="0"/>
   <testcase classname="BunTest" name="getPriceReturnValidPrice[Bun 3 -&gt; Name: , Price: 300 ]" time="0"/>
   <testcase classname="BunTest" name="getNameReturnValidName[Bun 4 -&gt; Name: qwertyqwertyqwertyqwertyqwertyqwerty, Price: 200 ]" time="0"/>
@@ -77,12 +77,12 @@
   <testcase classname="BunTest" name="getPriceReturnValidPrice[Bun 6 -&gt; Name: !№;%?*(_#@), Price: 200 ]" time="0"/>
   <testcase classname="BunTest" name="getNameReturnValidName[Bun 7 -&gt; Name: black bun, Price: -100 ]" time="0"/>
   <testcase classname="BunTest" name="getPriceReturnValidPrice[Bun 7 -&gt; Name: black bun, Price: -100 ]" time="0"/>
-  <testcase classname="BunTest" name="getNameReturnValidName[Bun 8 -&gt; Name: black bun, Price: 0 ]" time="0"/>
+  <testcase classname="BunTest" name="getNameReturnValidName[Bun 8 -&gt; Name: black bun, Price: 0 ]" time="0.002"/>
   <testcase classname="BunTest" name="getPriceReturnValidPrice[Bun 8 -&gt; Name: black bun, Price: 0 ]" time="0"/>
   <testcase classname="BunTest" name="getNameReturnValidName[Bun 9 -&gt; Name: black bun, Price: 0,01 ]" time="0"/>
   <testcase classname="BunTest" name="getPriceReturnValidPrice[Bun 9 -&gt; Name: black bun, Price: 0,01 ]" time="0"/>
   <testcase classname="BunTest" name="getNameReturnValidName[Bun 10 -&gt; Name: black bun, Price: 999 999 999 ]" time="0"/>
-  <testcase classname="BunTest" name="getPriceReturnValidPrice[Bun 10 -&gt; Name: black bun, Price: 999 999 999 ]" time="0.001"/>
+  <testcase classname="BunTest" name="getPriceReturnValidPrice[Bun 10 -&gt; Name: black bun, Price: 999 999 999 ]" time="0"/>
   <testcase classname="BunTest" name="getNameReturnValidName[Bun 11 -&gt; Name: neon bun, Price: 300 ]" time="0"/>
   <testcase classname="BunTest" name="getPriceReturnValidPrice[Bun 11 -&gt; Name: neon bun, Price: 300 ]" time="0"/>
 </testsuite>

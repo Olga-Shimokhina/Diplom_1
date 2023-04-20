@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="24" failures="0" name="IngredientTest" time="0.006" errors="0" skipped="0">
+<testsuite tests="24" failures="0" name="IngredientTest" time="0.007" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="19.0.1+10-21"/>
     <property name="sun.boot.library.path" value="C:\Program Files\OpenJDK\jdk-19.0.1\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="D:\Diplom_Olga_Shimokhina_16\Diplom_1"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\QA\Diplom_Olga_Shimokhina_16\Diplom_1"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -15,11 +15,11 @@
     <property name="user.country" value="RU"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\Diplom_Olga_Shimokhina_16\Diplom_1"/>
+    <property name="user.dir" value="D:\QA\Diplom_Olga_Shimokhina_16\Diplom_1"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="19.0.1+10-21"/>
     <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\ADMIN~1.LEG\AppData\Local\Temp\"/>
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
     <property name="line.separator" value="
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
@@ -62,27 +62,27 @@
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
   <testcase classname="IngredientTest" name="getNameReturnTrueName[ 0 -&gt; Type: SAUCE, Name: hot sauce, Price: 100 ]" time="0.001"/>
-  <testcase classname="IngredientTest" name="getPriceReturnTruePrice[ 0 -&gt; Type: SAUCE, Name: hot sauce, Price: 100 ]" time="0"/>
-  <testcase classname="IngredientTest" name="getTypeReturnTrueType[ 0 -&gt; Type: SAUCE, Name: hot sauce, Price: 100 ]" time="0.001"/>
+  <testcase classname="IngredientTest" name="getPriceReturnTruePrice[ 0 -&gt; Type: SAUCE, Name: hot sauce, Price: 100 ]" time="0.001"/>
+  <testcase classname="IngredientTest" name="getTypeReturnTrueType[ 0 -&gt; Type: SAUCE, Name: hot sauce, Price: 100 ]" time="0"/>
   <testcase classname="IngredientTest" name="getNameReturnTrueName[ 1 -&gt; Type: SAUCE, Name: sour cream, Price: 0,01 ]" time="0"/>
   <testcase classname="IngredientTest" name="getPriceReturnTruePrice[ 1 -&gt; Type: SAUCE, Name: sour cream, Price: 0,01 ]" time="0"/>
-  <testcase classname="IngredientTest" name="getTypeReturnTrueType[ 1 -&gt; Type: SAUCE, Name: sour cream, Price: 0,01 ]" time="0.001"/>
+  <testcase classname="IngredientTest" name="getTypeReturnTrueType[ 1 -&gt; Type: SAUCE, Name: sour cream, Price: 0,01 ]" time="0.002"/>
   <testcase classname="IngredientTest" name="getNameReturnTrueName[ 2 -&gt; Type: SAUCE, Name: chili sauce, Price: 300 ]" time="0"/>
   <testcase classname="IngredientTest" name="getPriceReturnTruePrice[ 2 -&gt; Type: SAUCE, Name: chili sauce, Price: 300 ]" time="0"/>
   <testcase classname="IngredientTest" name="getTypeReturnTrueType[ 2 -&gt; Type: SAUCE, Name: chili sauce, Price: 300 ]" time="0"/>
   <testcase classname="IngredientTest" name="getNameReturnTrueName[ 3 -&gt; Type: FILLING, Name: cutlet, Price: 100 ]" time="0"/>
   <testcase classname="IngredientTest" name="getPriceReturnTruePrice[ 3 -&gt; Type: FILLING, Name: cutlet, Price: 100 ]" time="0"/>
   <testcase classname="IngredientTest" name="getTypeReturnTrueType[ 3 -&gt; Type: FILLING, Name: cutlet, Price: 100 ]" time="0"/>
-  <testcase classname="IngredientTest" name="getNameReturnTrueName[ 4 -&gt; Type: SAUCE, Name: galaxy sauce, Price: -100 ]" time="0"/>
+  <testcase classname="IngredientTest" name="getNameReturnTrueName[ 4 -&gt; Type: SAUCE, Name: galaxy sauce, Price: -100 ]" time="0.001"/>
   <testcase classname="IngredientTest" name="getPriceReturnTruePrice[ 4 -&gt; Type: SAUCE, Name: galaxy sauce, Price: -100 ]" time="0"/>
   <testcase classname="IngredientTest" name="getTypeReturnTrueType[ 4 -&gt; Type: SAUCE, Name: galaxy sauce, Price: -100 ]" time="0"/>
-  <testcase classname="IngredientTest" name="getNameReturnTrueName[ 5 -&gt; Type: FILLING, Name: sausage, Price: 300 ]" time="0.001"/>
-  <testcase classname="IngredientTest" name="getPriceReturnTruePrice[ 5 -&gt; Type: FILLING, Name: sausage, Price: 300 ]" time="0"/>
+  <testcase classname="IngredientTest" name="getNameReturnTrueName[ 5 -&gt; Type: FILLING, Name: sausage, Price: 300 ]" time="0"/>
+  <testcase classname="IngredientTest" name="getPriceReturnTruePrice[ 5 -&gt; Type: FILLING, Name: sausage, Price: 300 ]" time="0.001"/>
   <testcase classname="IngredientTest" name="getTypeReturnTrueType[ 5 -&gt; Type: FILLING, Name: sausage, Price: 300 ]" time="0"/>
   <testcase classname="IngredientTest" name="getNameReturnTrueName[ 6 -&gt; Type: FILLING, Name: null, Price: 200 ]" time="0"/>
-  <testcase classname="IngredientTest" name="getPriceReturnTruePrice[ 6 -&gt; Type: FILLING, Name: null, Price: 200 ]" time="0.001"/>
-  <testcase classname="IngredientTest" name="getTypeReturnTrueType[ 6 -&gt; Type: FILLING, Name: null, Price: 200 ]" time="0"/>
+  <testcase classname="IngredientTest" name="getPriceReturnTruePrice[ 6 -&gt; Type: FILLING, Name: null, Price: 200 ]" time="0"/>
+  <testcase classname="IngredientTest" name="getTypeReturnTrueType[ 6 -&gt; Type: FILLING, Name: null, Price: 200 ]" time="0.001"/>
   <testcase classname="IngredientTest" name="getNameReturnTrueName[ 7 -&gt; Type: null, Name: sausage, Price: 300 ]" time="0"/>
   <testcase classname="IngredientTest" name="getPriceReturnTruePrice[ 7 -&gt; Type: null, Name: sausage, Price: 300 ]" time="0"/>
-  <testcase classname="IngredientTest" name="getTypeReturnTrueType[ 7 -&gt; Type: null, Name: sausage, Price: 300 ]" time="0.001"/>
+  <testcase classname="IngredientTest" name="getTypeReturnTrueType[ 7 -&gt; Type: null, Name: sausage, Price: 300 ]" time="0"/>
 </testsuite>
